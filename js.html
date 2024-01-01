@@ -1,0 +1,40 @@
+<!---->
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>javascript for loop</h2>
+    <p id="demo"></p>
+    <p id="for of"></p>
+    <script>
+        //for loops 
+
+        let text ='';
+        for(let i=0;i<5;i++){
+            text += "the number is"+i+ "<br>";
+        }
+        document.getElementById("demo").innerHTML = text;
+
+        //for in loops
+        const num = [90,54,34,36]
+        let numbers="";
+        for( let x in numbers){
+            text +=numbers[x] +"<br>";
+        }
+        document.getElementById("demo").innerHTML = txt;
+
+        //for of loops
+        let language="javascript"
+        let text = "";
+        for (let x of language){
+            text +=x +"<br>"
+        }
+        document.getElementById("for of").innerHTML=txt;
+        
+    </script>
+</body>
+</html>
